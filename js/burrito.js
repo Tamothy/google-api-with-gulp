@@ -22,7 +22,7 @@ var request;
 var service;
 var markers =[];
 
-function initialize() {
+window.onload = function initialize() {
   var curLocation = new google.maps.LatLng(45.5231,-122.6765);
   map = new google.maps.Map(document.getElementById('map'), {
       center: curLocation,
@@ -70,7 +70,9 @@ function createMarker(place) {
   });
 
   google.maps.event.addListener(marker, 'click', function() {
-    infowindow.setContent(place.name);
+    infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+    'Address: ' + place.vicinity + '<br>' +
+    'Rating: ' + place.rating + '</div>');
     infowindow.open(map, this);
   });
   return marker;

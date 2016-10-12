@@ -1,9 +1,9 @@
 var apiKey = "AIzaSyCFSYOwV7ppMSxKc5PEIph0NavehkMs0Kk";
 
 $(document).ready(function() {
-  $('#burritoLocation').click(function() {
-    initialize();
-  });
+  // $('#burritoLocation').click(function() {
+  //   // initialize();
+  // });
 });
   // $('#burritoLocation').click(function() {
   //   var city = $('#location').val();
