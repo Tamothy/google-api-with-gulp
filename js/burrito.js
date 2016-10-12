@@ -27,7 +27,7 @@ window.onload = function initialize() {
   map = new google.maps.Map(document.getElementById('map'), {
       center: curLocation,
       zoom:13,
-      // mapTypeId: 'roadmap'
+      mapTypeId: 'roadmap'
   });
 
   request = {
