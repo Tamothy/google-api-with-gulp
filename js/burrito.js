@@ -1,8 +1,12 @@
+var apiKey = require('./../.env').apiKey;
+
 window.addEventListener('load',function(){
 
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDevrI9jJaRbgLwkYJxVvw3nBDiL90mogM&libraries=places';
+  script.src = 'https://maps.googleapis.com/maps/api/js?key=' + apiKey + '&libraries=places';
+  script.async = true;
+  script.defer = true;
   document.body.appendChild(script);
 });
 
