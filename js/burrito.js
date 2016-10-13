@@ -1,4 +1,10 @@
+window.addEventListener('load',function(){
 
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDevrI9jJaRbgLwkYJxVvw3nBDiL90mogM&libraries=places';
+  document.body.appendChild(script);
+});
 
 var map;
 var infowindow;
