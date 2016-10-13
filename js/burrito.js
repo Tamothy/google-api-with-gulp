@@ -1,19 +1,4 @@
-// window.onload = function (){
-//      var mapDiv = document.getElementById('map');
-//      var pos;
-//      $.get( "http://ip-api.com/json", function(data) {
-//        pos = new google.maps.LatLng(data.lat, data.lon);
-//        initMap();
-//      });
-//
-//      function initMap() {
-//         var map = new google.maps.Map(mapDiv, {
-//           zoom: 10,
-//           center: pos
-//
-//         });
-//      }
-//    }
+
 
 var map;
 var infowindow;
@@ -22,7 +7,8 @@ var request;
 var service;
 var markers =[];
 
-window.onload = function initialize() {
+function initialize() {
+
   var curLocation = new google.maps.LatLng(45.5231,-122.6765);
   map = new google.maps.Map(document.getElementById('map'), {
       center: curLocation,
