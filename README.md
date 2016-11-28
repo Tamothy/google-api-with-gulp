@@ -1,20 +1,19 @@
 # Search Burritos
 
-#### An application practicing Google API and Gulp
+#### An application that searches nearest burritos using Google API and Gulp
 
 #### By Tam Nguyen
 
 ## Description
 
-This is an exercise implementing JavaScript, incorporating Gulp in a development workflow and utilizing Google API to search nearest burrito food carts and restaurants.
+This contains an application that searches burrito food carts and restuarants nearby, utilizing Google API and Gulp.
 
 ## Setup/Installation Requirements
 
-* Check out the GitHub pages link: https://tamothy.github.io/google-api-with-gulp
-* Clone repository if interested in making changes
-* Use Atom to customize changes
-* Make sure to commit regularly on terminal
-* Don't forget to push to remote repository
+* Download or clone repository
+* Make sure to obtain an API key from Google and store into an .env file at the top level of the directory
+* Install packages with `$ npm install` and `$ bower install`
+* Run program with `$ gulp serve`
 
 ## Support and contact details
 
@@ -22,17 +21,17 @@ Tam Nguyen's email: mr.tamron@gmail.com
 
 ## Technologies Used
 
-Google API
-
-Gulp
-
-JavaScript
-
-JQuery
+HTML
 
 CSS
 
-HTML
+JavaScript
+
+jQuery
+
+Node
+
+Gulp
 
 ### License
 
