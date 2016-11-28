@@ -6,7 +6,7 @@
 
 ## Description
 
-This contains an application that searches burrito food carts and restuarants nearby, utilizing Google API and Gulp.
+This contains an application that searches burrito food carts and restaurants nearby, utilizing Google API and Gulp.
 
 ## Setup/Installation Requirements
 
